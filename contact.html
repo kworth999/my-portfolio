@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <title>Contact</title>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+
+   <!-- Navbar -->
+   <header class="navbar fixed-top navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="https://www.linkedin.com/in/kayla-w-b16944159/">Kayla Worth</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+         <ul class="navbar-nav nav-tabs">
+            <li class="nav-item">
+               <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+               <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>            
+         </ul>
+      </nav>
+   </header>
+
+   <!-- main content -->
+   <main class="container-xl my-5">
+      <section class="row mx-auto">
+         <figure class="col-xl-5 mx-3 my-4">
+
+            <!-- Card within the main row/column -->
+            <figure class="card text-white bg-secondary">
+               <article class="card-body">
+                  <h4 class="display-4">Get & Stay in Touch</h4>
+                  <hr>
+
+                  <!-- Contact form -->
+                  <form>
+                     <div class="form-group">
+                        <label for="requesterName">Your Name</label>
+                        <input type="text" class="form-control" id="requesterName" aria-describedby="nameHelp">
+                        <small id="nameHelp" class="form-text">Please enter your full name</small>
+                     </div>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text">PLease enter the email you'd like a response to</small>
+                     </div>
+                     <div class="form-group">
+                        <label for="contactMessage">Message:</label>
+                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                        <small id="messageHelp" class="form-text">Please enter details of your inquiry</small>
+                     </div>
+
+                     <!-- Button trigger modal -->
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#inquirySubmitted">
+                        Submit
+                     </button>
+
+                     <!-- Modal -->
+                     <div class="modal fade" id="inquirySubmitted" tabindex="-1" aria-labelledby="inquirySubmittedLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                           <div class="modal-content bg-secondary">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="inquirySubmittedLabel">Inquiry Submitted!</h5>
+                                 <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                 Thank you for your inquiry! It has been successfully logged and you should hear back from me within 3-5 business days.
+                              </div>
+                              <div class="modal-footer">
+                                 <button type="button" class="btn btn-success" data-dismiss="modal">Got it!</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+               </article>
+            </figure>
+         </figure>
+      </section>
+   </main>
+
+   <!-- footer -->
+   <footer class="navbar fixed-bottom justify-content-center bg-info">
+      <span class="navbar-text-md text-center">
+         &copy; Copyright Kayla Worth 2022
+      </span>
+   </footer>
+
+
+   <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
