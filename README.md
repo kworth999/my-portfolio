@@ -15,4 +15,4 @@ I used Bootstrap 4 for my Portfolio
 https://kworth999.github.io/my-portfolio/
 
 # Github Link
-Github Link: https://github.com/kworth999/my-portfolio
+https://github.com/kworth999/my-portfolio
