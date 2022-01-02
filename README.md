@@ -10,5 +10,6 @@ I used Bootstrap 4 for my Portfolio
 ![2022-01-02 (18)](https://user-images.githubusercontent.com/74362605/147887741-e4bb247d-9ee6-434c-9bf5-281d43eb3b76.png)
 3. Here is my contact page to get in touch with me. (However, the submit button doesn't work yet.)
 
-# Deployed Link
-https://kworth999.github.io/my-portfolio/
+# Links
+Deployed Link: https://kworth999.github.io/my-portfolio/
+Github Link: https://github.com/kworth999/my-portfolio
